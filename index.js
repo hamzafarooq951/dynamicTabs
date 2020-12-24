@@ -22,7 +22,7 @@ function addRow() {
     divPanel.innerHTML = `
     <br>
     <h3>New Tab ${i}</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <iframe class="ifram" src="https://codebeautify.org/xmlviewer#" title="description">
     `;
     document.getElementsByClassName('container tab-pane fade show active').item(0).classList.remove("active","show");
     tabspanel.insertBefore(divPanel, tabspanel.lastElementChild);
